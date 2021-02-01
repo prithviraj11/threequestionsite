@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/index.css">
+  <script language="javascript">
+    function Magicfunction() {
+      var favcol = document.getElementById("favcol").value;
+      var whycol = document.getElementById("whycol").value;
+      var favani = document.getElementById("favani").value;
+      var whyani = document.getElementById("whyani").value;
+      var favwat = document.getElementById("favwat").value;
+      var whywat = document.getElementById("whywat").value;
+      alert("The color of your aura is " + favcol + ". This color reflects your personality because it is " + whycol + ".Your ideal partner is like a " + favani + ". You see your ideal partner to be like that because it is " + whyani +
+        ". Your sexuality is like(/like a(n)) " + favwat + ". You feel that way because it is " + whywat + ".");
+      location.href = "C:\Webdev bootcamp '21(1)\index.html";
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Three questions that say a lot about you</h1>
+  <hr>
+  <p>The following questions will speak a lot about you. The questions may seem a little childish at first, but bear with us as the final result is deeper than you think. Let's find out!</p>
+  <div class="form">
+    <form onsubmit="Magicfunction()">
+      <table>
+        <tr>
+          <td><label for="favcol">What is your favorite color?</label></td>
+          <td><input type="text" name="favcol" id="favcol"></td>
+        </tr>
+        <tr>
+          <td><label for="whycol">You like that color because it is-</label></td>
+          <td><textarea name="whycol" id="whycol" rows="4" cols="22"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="favani">What is your favorite animal?</label></td>
+          <td><input type="text" name="favani" id="favani"></td>
+        </tr>
+        <tr>
+          <td><label for="whyani">You like that animal because it is-</label></td>
+          <td><textarea name="whyani" id="whyani" rows="4" cols="22"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="favwat">What is your favorite form of water/waterbody?</label></td>
+          <td><input type="text" name="favwat" id="favwat"></td>
+        </tr>
+        <tr>
+          <td><label for="whywat">You like that because it is-</label></td>
+          <td><textarea name="whywat" id="whywat" rows="4" cols="22"></textarea></td>
+        </tr>
+      </table>
+      <div class="subb">
+        <input type="submit" name="submit" value="Now see the magic!" id="subbutton">
+      </div>
+
+
+    </form>
+
+  </div>
+  <hr>
+  <footer>
+    <h5>Disclaimer: The idea is not originally ours. It was taken from a video and we used is for a small webdev project. Also, the results are not for kids. So, don't let children try the quiz. Have fun.</h5>
+  </footer>
+</body>
+
+</html>

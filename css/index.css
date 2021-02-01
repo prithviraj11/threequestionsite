@@ -1,0 +1,62 @@
+body{
+  background-color: #6b5b95;
+  color: #feb236;
+  font-family: "Copperplate Gothic";
+}
+footer{
+  background-color: #ff7b25;
+  color: white;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  height: auto;
+}
+.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+hr{
+  width: 40%;
+  border: none;
+  border-top: 5px dotted;
+  color: #ff7b25;
+}
+h1{
+  text-align: center;
+}
+input[type=submit]{
+  background-color: #ff7b25;
+  border: 0 none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Copperplate Gothic";
+  padding: 10px 30px;
+}
+input[type=submit]:hover{
+  background-color: #d64161;
+  color: white;
+}
+input[type=text] {
+  background-color: #ff7b25;
+  border: 0 none;
+  color: white;
+  padding: 5px 15px;
+}
+td{
+  padding: 5px 15px;
+}
+.subb{
+  display: block;
+  text-align: center;
+}
+textarea{
+  border: 0 none;
+  padding: 5px 15px;
+}
